@@ -1,0 +1,22 @@
+.title{
+  font-size: 35px;
+  font-weight: initial;
+}
+.root{
+
+  margin: 50px 30px 0 0;
+  font-size: 20px;
+  .strong{
+    font-weight: bold;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    margin-right: 30px;
+  }
+  .table{
+    margin-bottom: 30px;
+  }
+}

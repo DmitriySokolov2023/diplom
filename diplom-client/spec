@@ -1,0 +1,24 @@
+// const [selectSpec, useSelectSpec] = useState('None')
+ // const {data: speciality} = useQuery({queryKey: ['sp'], queryFn:  () => specApi.getSpec<ISpecialisation[]>()})
+    {/*<FormControl fullWidth>*/}
+                     {/*    <InputLabel id="spec-selected">Выберете специальность</InputLabel>*/}
+                     {/*    <Select labelId="spec-selected" id="spec-selected" {...register('spec_id')} value={selectSpec} label="Выберете специальность" onChange={handleChange2}>*/}
+                     {/*        <MenuItem onClick={()=>useSelectSpec('0')} value="None">*/}
+                     {/*            <em>Выберете специальность</em>*/}
+                     {/*        </MenuItem>*/}
+                     {/*        {speciality?.map(spec=>*/}
+                     {/*            <MenuItem*/}
+                     {/*                key={spec.id}*/}
+                     {/*                value={spec.id}*/}
+                     {/*                onClick={()=>useSelectSpec(spec.id)}*/}
+                     {/*            >{spec.title}</MenuItem>*/}
+                     {/*        )}*/}
+                     {/*    </Select>*/}
+                     {/*</FormControl>*/}
+
+
+                     const handleChange2 = (event: SelectChangeEvent) => {
+                             setSpec(event.target.value);
+                         }
+
+                         const [spec, setSpec] = useState("");
